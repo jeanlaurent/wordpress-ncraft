@@ -5,7 +5,7 @@ services:
     ports:
       - "4343:80"
     volumes:
-     - ./wordpress/wp-content/:/var/www/html/wp-content
+     - ./wordpress/:/var/www/html/
     environment:
       - WORDPRESS_DB_HOST=blog-db
       - WORDPRESS_DB_PASSWORD=t8Bmtubzt7gPGM77Y
